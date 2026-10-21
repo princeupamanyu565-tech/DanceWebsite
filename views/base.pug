@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title Ishika Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/img/logo.png", alt="Dance Academy Logo")
+                | IDA
+            li #[a(href="/") Home]
+            li #[a(href="/about") About]
+            li #[a(href="/services") Services]
+            li #[a(href="/classinfo") Class Info]
+            li #[a(href="/contact") Contact Us]
+            
+    block content
+    
+    footer#footer
+        | Copyright © 2026 IshikaDanceAcademy.com | All rights reserved
